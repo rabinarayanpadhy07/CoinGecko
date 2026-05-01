@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui/index.js";
+@plugin "daisyui/theme" {
+  name: "night";
+  default: true;
+}

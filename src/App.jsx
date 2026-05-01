@@ -1,12 +1,15 @@
-import CoinTable from "./components/CoinTable/CoinTAble";
+import './index.css';
+import CoinTable from "./components/CoinTable/CoinTable.jsx";
+import NavBar from './components/NavBar/Navbar.jsx';
+import Banner from './components/Banner/Banner.jsx';
 function App() {
   return (
-    <div className="min-h-screen bg-base-100 text-base-content p-10">
-      <h1 className="text-3xl font-bold">Crypto Tracker</h1>
-      <main>
-        <CoinTable />
-      </main>
-    </div>
+    <>
+      <NavBar />
+      <Banner />
+      <CoinTable />
+    </>
+
   );
 }
 export default App;
